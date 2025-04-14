@@ -29,7 +29,10 @@ public class Usuario {
         // Atributos da classe SmartTv
         // Aqui são imprimidos os atributos da classe SmartTv
         smartTv.diminuirVolume();
-        // Diminuindo o volume da TV em 1 unidade
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        // Diminuindo o volume da TV em 3 unidades
+        smartTv.mudarCanal(canal);
         System.out.println("TV Ligada? " + smartTv.ligada);
         System.out.println("Canal atual: " + smartTv.canal);
         System.out.println("Volume atual: " + smartTv.volume);
