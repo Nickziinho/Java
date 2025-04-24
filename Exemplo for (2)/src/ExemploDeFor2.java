@@ -6,6 +6,7 @@ public class ExemploDeFor2 {
         for (int x=0; x<alunos.length; x++) {
             System.out.println("O aluno no indice: " + indice + " é " + alunos[x]);
             indice++;
+
         }
     }
     }
