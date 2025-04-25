@@ -3,7 +3,7 @@ public class ResultadoEscolar {
         
         int nota = 6;
 
-        if nota >= 7 {
+        if (nota >= 7) {
             System.err.println("Aprovado");
         }
         else if (nota >= 5 && nota < 7) {
