@@ -9,7 +9,7 @@ public class ServicoMensagemInstantanea {
         salvarHistóricoMensagem();
     }
     public void receberMensagem() {
-        System.out.println("Recebdno mensagem");
+        System.out.println("Recebendo mensagem");
     }
 
     //métodos privados, visiveis somente na classe
