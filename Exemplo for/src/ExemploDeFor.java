@@ -1,5 +1,5 @@
 // class ExemploBreakContinue.java
-public class ExemploBreakContinue {
+public class ExemploDeFor {
 	public static void main(String[] args) {
 	
 	for(int numero = 1; numero <=5; numero ++){
@@ -10,6 +10,10 @@ public class ExemploBreakContinue {
 		
 	}
 	//Qual a saída no console ?
-
+	//1
+	//2
+	//4
+	//5
+	//O número 3 não foi impresso no console, pois o continue faz com que o loop pule a iteração atual e continue com a próxima.
     }
 }
