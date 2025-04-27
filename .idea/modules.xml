@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Break continue/Break continue.iml" filepath="$PROJECT_DIR$/Break continue/Break continue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Caixa eletronico/Caixa eletronico.iml" filepath="$PROJECT_DIR$/Caixa eletronico/Caixa eletronico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ/Conta/Conta.iml" filepath="$PROJECT_DIR$/IntelliJ/Conta/Conta.iml" />
       <module fileurl="file://$PROJECT_DIR$/../IntelliJ/Conta bancaria/Conta bancaria.iml" filepath="$PROJECT_DIR$/../IntelliJ/Conta bancaria/Conta bancaria.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/ContaBanco/ContaBanco.iml" />
       <module fileurl="file://$PROJECT_DIR$/Controle de fluxo desafio/Controle de fluxo desafio.iml" filepath="$PROJECT_DIR$/Controle de fluxo desafio/Controle de fluxo desafio.iml" />
@@ -13,9 +14,11 @@
       <module fileurl="file://$PROJECT_DIR$/IntelliJ/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/IntelliJ/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Plano operadora/Plano operadora.iml" filepath="$PROJECT_DIR$/Plano operadora/Plano operadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ/Primeira classe/Primeira classe.iml" filepath="$PROJECT_DIR$/IntelliJ/Primeira classe/Primeira classe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programa java smart tv/Programa java smart tv.iml" filepath="$PROJECT_DIR$/Programa java smart tv/Programa java smart tv.iml" />
       <module fileurl="file://$PROJECT_DIR$/../IntelliJ/Projeto primeira classe/Projeto primeira classe.iml" filepath="$PROJECT_DIR$/../IntelliJ/Projeto primeira classe/Projeto primeira classe.iml" />
       <module fileurl="file://$PROJECT_DIR$/../IntelliJ/Record/Record.iml" filepath="$PROJECT_DIR$/../IntelliJ/Record/Record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ/RecordProject/RecordProject.iml" filepath="$PROJECT_DIR$/IntelliJ/RecordProject/RecordProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Resultado escolar/Resultado escolar.iml" filepath="$PROJECT_DIR$/Resultado escolar/Resultado escolar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sistema Medida/Sistema Medida.iml" filepath="$PROJECT_DIR$/Sistema Medida/Sistema Medida.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teste/Teste.iml" filepath="$PROJECT_DIR$/Teste/Teste.iml" />
