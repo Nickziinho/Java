@@ -4,7 +4,7 @@ public class ComputadorPedrinho {
     public static void main(String[] args) {
         //Abrindo o MSN Messenger
         System.out.println("-------------------------");
-        System.out.println("MSN");
+        System.out.println("MSN Messenger");
         MSNMessenger msn = new MSNMessenger();
         msn.enviarMensagem();
         msn.receberMensagem();
