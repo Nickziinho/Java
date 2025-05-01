@@ -29,5 +29,4 @@ public class ContaTerminal {
     public void setSaldo(float saldo){
         this.saldo = saldo;
     }
-
 }

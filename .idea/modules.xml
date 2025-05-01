@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Break continue/Break continue.iml" filepath="$PROJECT_DIR$/Break continue/Break continue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Caixa eletronico/Caixa eletronico.iml" filepath="$PROJECT_DIR$/Caixa eletronico/Caixa eletronico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ/Catalogo de livros/Catalogo de livros.iml" filepath="$PROJECT_DIR$/IntelliJ/Catalogo de livros/Catalogo de livros.iml" />
       <module fileurl="file://$PROJECT_DIR$/IntelliJ/Conta/Conta.iml" filepath="$PROJECT_DIR$/IntelliJ/Conta/Conta.iml" />
       <module fileurl="file://$PROJECT_DIR$/../IntelliJ/Conta bancaria/Conta bancaria.iml" filepath="$PROJECT_DIR$/../IntelliJ/Conta bancaria/Conta bancaria.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/ContaBanco/ContaBanco.iml" />
