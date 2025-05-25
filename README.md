@@ -120,3 +120,86 @@ O SaaS é o nível mais alto de abstração com menor responsabilidade para o cl
 - Oferece menos flexibilidade de personalização
 
 A escolha entre estes modelos deve ser baseada nas necessidades específicas de cada organização e nas responsabilidades que se deseja assumir.
+
+# **Componentes de Arquitetura do Microsoft Azure**
+
+### **Regiões do Azure**
+
+- Uma **região** é um conjunto geográfico onde os datacenters do Azure estão localizados.
+- Existem **mais de 60 regiões** distribuídas por **mais de 140 países**.
+- Algumas regiões são **anunciadas (em pontilhado no mapa)** e ainda não estão disponíveis.
+
+---
+
+### **Escolha de Região para Criar Recursos**
+
+- Ao criar um recurso no Azure, você escolhe **em qual região ele será hospedado**.
+- Isso **afeta a latência, o desempenho e até o preço**.
+- **Recursos diferentes podem ter preços e disponibilidades diferentes dependendo da região.**
+- **Nem todos os recursos estão disponíveis em todas as regiões**, especialmente quando estão em **preview**.
+
+---
+
+### **Datacenters e Zonas de Disponibilidade**
+
+- Cada **região é composta por um ou mais datacenters**.
+- Geralmente, **considera-se 3 datacenters por região**, formando o que se chama de **zona de disponibilidade**.
+- Cada **zona** é um datacenter isolado com energia, rede e refrigeração independentes.
+- Isso permite **redundância e alta disponibilidade**: se um datacenter falha, os outros continuam funcionando.
+
+---
+
+### **Comunicação entre Datacenters**
+
+- A **comunicação entre datacenters** ocorre por meio da **rede de backbone da Microsoft**, com **baixa latência e alta performance**.
+- É essencial para **replicação de dados** e para manter a **disponibilidade contínua** dos serviços.
+
+---
+
+### **Disaster Recovery (Recuperação de Desastres)**
+
+- Se **toda uma região falhar**, entra em ação o **disaster recovery**, usando uma **região secundária (par)** com os recursos replicados.
+- Isso não é “ativo-ativo”, mas sim “**ativo-passivo**”: a região secundária só assume se a primária cair.
+
+---
+
+### **Consistência dos Dados**
+
+- Aplicações críticas (banco, bolsa, saúde) exigem **sincronização em tempo real** entre os datacenters para garantir **dados consistentes em qualquer ponto**.
+- Essa responsabilidade é da Microsoft, mas o arquiteto precisa planejar bem a estrutura para manter a performance.
+
+---
+
+### **Conformidade com Leis Locais**
+
+- Ex: no Brasil temos a **LGPD**. Dados sensíveis **não podem ser armazenados fora do país**.
+- A Microsoft **garante a residência dos dados e conformidade com leis locais**.
+
+---
+
+### **Estrutura Física dos Datacenters**
+
+- Um datacenter é composto por vários **racks (armários)** com **servidores físicos**.
+- Esses racks são alimentados por energia e rede separadamente.
+- Mesmo **dentro do mesmo datacenter**, a distribuição dos recursos em racks diferentes aumenta a **resiliência**.
+
+---
+
+### **Boas Práticas Recomendadas**
+
+- Sempre que possível, **replicar recursos críticos** entre zonas de disponibilidade.
+- Testar laboratórios usando **Microsoft Learn** ou uma conta **trial**.
+- Estar ciente de que **a interface do portal muda constantemente**, então é essencial praticar.
+
+---
+
+### **Resumo Final em Bullet Points**
+
+- O Azure tem **regiões** formadas por datacenters.
+- Cada **região** pode ter até **três zonas de disponibilidade**.
+- Alta disponibilidade é garantida por **replicação e comunicação entre zonas**.
+- **Disaster Recovery** depende da **replicação para uma segunda região (par)**.
+- **Nem todos os recursos estão disponíveis em todas as regiões**.
+- A escolha da região influencia **latência, disponibilidade e preço**.
+- A **Microsoft garante conformidade legal** com a LGPD e outros regulamentos.
+- Você deve **praticar** com uma conta trial ou com os laboratórios do Microsoft Learn.
